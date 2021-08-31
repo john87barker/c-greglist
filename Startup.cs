@@ -32,6 +32,7 @@ namespace c_greglist
 
             services.AddTransient<CarsService>();
             services.AddTransient<HousesService>();
+            services.AddTransient<JobsService>();
 
             services.AddSwaggerGen(c =>
             {
