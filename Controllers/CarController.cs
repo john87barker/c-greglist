@@ -18,6 +18,7 @@ namespace c_greglist.Controllers
 
 
 
+
     [HttpGet()]
     public ActionResult<IEnumerable<Car>> Get()
     {
@@ -68,7 +69,7 @@ namespace c_greglist.Controllers
         _carsService.Delete(id);
         return Ok("Car has been sold!");
       }
-      catch (Exception)
+      catch (Exception err)
       {
         return BadRequest(err.Message);
       }
