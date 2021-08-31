@@ -28,7 +28,7 @@ namespace c_greglist.Model
     public Car(string make, string model, int year, int price)
     {
       Make = make;
-      Model = Model;
+      Model = model;
       Year = year;
       Price = price;
       // Description = description;

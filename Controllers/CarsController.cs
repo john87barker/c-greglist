@@ -8,10 +8,10 @@ namespace c_greglist.Controllers
 {
   [ApiController]
   [Route("/api/[controller]")]
-    public class CarController :ControllerBase
+    public class CarsController :ControllerBase
     {
     private readonly CarsService _carsService;
-    public CarController(CarsService carsService)
+    public CarsController(CarsService carsService)
     {
       _carsService = carsService;
     }
@@ -19,7 +19,7 @@ namespace c_greglist.Controllers
 
 
 
-    [HttpGet()]
+    [HttpGet]
     public ActionResult<IEnumerable<Car>> Get()
     {
       try
