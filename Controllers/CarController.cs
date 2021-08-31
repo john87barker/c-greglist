@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using c_greglist.Models;
+using c_greglist.Model;
 using c_greglist.Services;
 
 namespace c_greglist.Controllers
@@ -10,13 +10,21 @@ namespace c_greglist.Controllers
   [Route("/api/[controller]")]
     public class CarController :ControllerBase
     {
+    private readonly CarsService _carsService;
+    public CarController(CarsService carsService)
+    {
+      _carsService = carsService;
+    }
+
+
+
     [HttpGet()]
     public ActionResult<IEnumerable<Car>> Get()
     {
       try
       {
         IEnumerable<Car> cars = _carsService.Get();
-        return ok(cars);
+        return Ok(cars);
       }
       catch(Exception err)
       {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\18017\\source\\codeworks\\gregslist\\c#greglist\\c#greglist.csproj": {}
+    "C:\\Users\\18017\\source\\codeworks\\c#greglist\\c#greglist.csproj": {}
   },
   "projects": {
-    "C:\\Users\\18017\\source\\codeworks\\gregslist\\c#greglist\\c#greglist.csproj": {
+    "C:\\Users\\18017\\source\\codeworks\\c#greglist\\c#greglist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\18017\\source\\codeworks\\gregslist\\c#greglist\\c#greglist.csproj",
+        "projectUniqueName": "C:\\Users\\18017\\source\\codeworks\\c#greglist\\c#greglist.csproj",
         "projectName": "c#greglist",
-        "projectPath": "C:\\Users\\18017\\source\\codeworks\\gregslist\\c#greglist\\c#greglist.csproj",
+        "projectPath": "C:\\Users\\18017\\source\\codeworks\\c#greglist\\c#greglist.csproj",
         "packagesPath": "C:\\Users\\18017\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\18017\\source\\codeworks\\gregslist\\c#greglist\\obj\\",
+        "outputPath": "C:\\Users\\18017\\source\\codeworks\\c#greglist\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\18017\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -19,6 +19,9 @@
         "originalTargetFrameworks": [
           "net5.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",

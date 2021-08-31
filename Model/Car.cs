@@ -1,8 +1,11 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace c_greglist.Model
 {
     public class Car
     {
-      [Required]
+      public string Id { get; set; }
+    [Required]
     public string Make { get; set; }
     [Required]
     public string Model { get; set; }

@@ -1,0 +1,7 @@
+C:\Users\18017\source\codeworks\c#greglist\obj\Debug\net5.0\c#greglist.csproj.AssemblyReference.cache
+C:\Users\18017\source\codeworks\c#greglist\obj\Debug\net5.0\c#greglist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\18017\source\codeworks\c#greglist\obj\Debug\net5.0\c#greglist.AssemblyInfoInputs.cache
+C:\Users\18017\source\codeworks\c#greglist\obj\Debug\net5.0\c#greglist.AssemblyInfo.cs
+C:\Users\18017\source\codeworks\c#greglist\obj\Debug\net5.0\c#greglist.csproj.CoreCompileInputs.cache
+C:\Users\18017\source\codeworks\c#greglist\obj\Debug\net5.0\c#greglist.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\18017\source\codeworks\c#greglist\obj\Debug\net5.0\c#greglist.MvcApplicationPartsAssemblyInfo.cache
